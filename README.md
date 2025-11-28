@@ -130,7 +130,6 @@ If you're using ProGuard, add these rules:
 
 ## Support
 
-- Documentation: [docs.helplane.io](https://docs.helplane.io)
 - Issues: [GitHub Issues](https://github.com/intigratech/helplane-android-sdk/issues)
 
 ## License
