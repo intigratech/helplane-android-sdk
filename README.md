@@ -27,9 +27,11 @@ Add the dependency to your app's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.github.intigratech:helplane-android-sdk:1.0.6")
+    implementation("com.github.intigratech:helplane-android-sdk:Tag")
 }
 ```
+
+Replace `Tag` with the latest version. Check [releases](https://github.com/intigratech/helplane-android-sdk/releases) for available versions.
 
 ## Quick Start
 
