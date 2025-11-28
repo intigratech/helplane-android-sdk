@@ -31,7 +31,7 @@ dependencies {
 }
 ```
 
-Replace `Tag` with the latest version. Check [releases](https://github.com/intigratech/helplane-android-sdk/releases) for available versions.
+Replace `Tag` with the latest version (e.g., `1.0.10`). Check [tags](https://github.com/intigratech/helplane-android-sdk/tags) for available versions.
 
 ## Quick Start
 
