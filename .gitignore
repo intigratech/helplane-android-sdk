@@ -13,6 +13,7 @@ local.properties
 *.class
 *.log
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 *.aar
 
 # Kotlin
