@@ -9,26 +9,25 @@ Add live chat support to your Android app with the HelpLane SDK.
 
 ## Installation
 
-### Clone and Include
+### Gradle (JitPack)
 
-Clone the SDK:
-
-```bash
-git clone https://github.com/intigratech/helplane-android-sdk.git
-```
-
-Add it as a local module in your `settings.gradle.kts`:
+Add JitPack to your project's `settings.gradle.kts`:
 
 ```kotlin
-include(":helplane-sdk")
-project(":helplane-sdk").projectDir = File("path/to/helplane-android-sdk")
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url = uri("https://jitpack.io") }
+    }
+}
 ```
 
-Add the dependency in your app's `build.gradle.kts`:
+Add the dependency to your app's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation(project(":helplane-sdk"))
+    implementation("com.github.intigratech:helplane-android-sdk:1.0.6")
 }
 ```
 
